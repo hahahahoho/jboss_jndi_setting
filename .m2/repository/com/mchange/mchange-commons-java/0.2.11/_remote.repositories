@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Sep 30 18:05:34 KST 2019
+mchange-commons-java-0.2.11.jar>central=
+mchange-commons-java-0.2.11.pom>central=
+mchange-commons-java-0.2.11-sources.jar>central=

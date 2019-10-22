@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 22 11:18:48 KST 2019
+javassist-3.22.0-GA.jar>central=
+javassist-3.22.0-GA-sources.jar>central=
+javassist-3.22.0-GA.pom>central=

@@ -1,0 +1,28 @@
+<datasources>
+                <datasource jndi-name="java:jboss/datasources/cubridTest" pool-name="cubridTest" enabled="true" use-java-context="true" statistics-enabled="true">
+                    <connection-url>
+jdbc:CUBRID:192.168.0.96:30000:demodb:::?charset=utf8
+	</connection-url>
+                    <driver>cubrid</driver>
+                    <security>
+                        <user-name>dba</user-name>
+		     <password></password>
+                    </security>
+		<pool>
+			<min-pool-size>20</min-pool-size>
+			<max-pool-size>20</max-pool-size>
+			<prefill>false</prefill>
+		</pool>
+
+                </datasource>
+                <drivers>
+                    <driver name="cubrid" module="com.cubrid.jdbc">
+                        <driver-class>
+cubrid.jdbc.driver.CUBRIDDriver</driver-class>
+                    </driver>
+                </drivers>
+            </datasources>
+
+
+<default-bindings context-service="java:jboss/ee/concurrency/context/default" datasource="java:jboss/datasources/cubridTest" managed-executor-service="java:jboss/ee/concurrency/executor/default" managed-scheduled-executor-service="java:jboss/ee/concurrency/scheduler/default" managed-thread-factory="java:jboss/ee/concurrency/factory/default"/>
+

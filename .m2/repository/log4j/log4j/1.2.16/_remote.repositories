@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Sep 30 18:05:35 KST 2019
+log4j-1.2.16.jar>central=
+log4j-1.2.16.pom>central=
+log4j-1.2.16-sources.jar>central=
